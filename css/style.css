@@ -1,0 +1,92 @@
+body {
+	background-color: darkcyan;
+	font-family: 'Roboto Condensed', sans-serif;
+	background-image: url(../images/bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+h1 {
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 30px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: rgb(47, 79, 79);
+}
+
+h2 {
+	text-align: center;
+	letter-spacing: 10px;
+	font-weight: normal;
+	text-transform: uppercase;
+	color: rgb(47, 79, 79);
+	margin-top: 30px;
+	font-style: italic;
+	text-shadow: 2px 2px 5px grey;
+}
+
+img {
+	display: block;
+	margin: 0 auto;
+	border: 5px solid white;
+	padding: 5px;
+	width: 200px;
+	border-radius: 50%;
+	transition: transform 200ms;
+	}
+
+img:hover {
+	transform: rotateY(180deg);
+}
+h3 {
+	color: rgb(47, 79, 79);
+	margin-bottom: 0;
+	line-height: 1.7;
+}
+
+h3:hover {
+	cursor: pointer;
+	text-decoration: none;
+	color: grey;
+}
+
+p,
+ul,
+ol {
+	padding-left: 0;
+	list-style: none;
+	line-height: 1.7;
+}
+
+/*Hide any elemect after an h3*/
+h3 + * {
+	display: none;
+}
+
+ul,
+ol {
+	padding-left: 25px;
+}
+
+a {
+	font-weight: bold;
+	color: rgb(47, 79, 79);
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+	color: grey;
+}
+
+div.main {
+	background-color: rgba(240, 255, 255, 0.9);
+	padding: 2%;
+	margin: 30px 20%;
+}
+div.header {
+	background-color: rgba(240, 255, 255, 0.9);
+		padding: 20px;
+	margin: 20px 20%;
+}
